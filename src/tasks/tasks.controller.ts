@@ -4,11 +4,11 @@ import { Controller, Get, Post, Body } from '@nestjs/common';
 export class TasksController {
   @Get()
   getTasks() {
-    return this.tasksService.findAll();
+    return 'This action returns all tasks';
   }
 
   @Post()
   createTask(@Body() task: any) {
-    return this.tasksService.create(task);
+    return 'This action creates a new task';
   }
 }
