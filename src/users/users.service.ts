@@ -4,11 +4,11 @@ import { dateTimestampProvider } from 'rxjs/internal/scheduler/dateTimestampProv
 @Injectable()
 export class UsersService {
     private users = [
-    { id: 1, name: 'John Doe'},
-    { id: 2, name: 'Jane Doe'},
-    { id: 3, name: 'Jim Doe'},
-    { id: 4, name: 'Jack Doe'},
-    { id: 5, name: 'Jill Doe'},
+    { id: 1, name: 'Maria Linares'},
+    { id: 2, name: 'Juan Rubio'},
+    { id: 3, name: 'Marta Sánchez'},
+    { id: 4, name: 'Isabel Hernández'},
+    { id: 5, name: 'Lucas Rodríguez'},
     ];
 
     getUsers() {
